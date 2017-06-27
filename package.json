@@ -1,0 +1,27 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "canvas-fit": "^1.5.0",
+    "gl-now": "^1.4.0",
+    "gl-shader": "^4.2.1",
+    "glslify": "^6.1.0",
+    "webgl-context": "^2.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "devDependencies": {
+    "wzrd": "^1.5.0"
+  }
+}
